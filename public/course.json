@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "title": "Web Development Basics",
+    "description": "This course covers the fundamentals of web development, including HTML, CSS, and JavaScript.",
+    "image": "https://i.ibb.co/k03mY9x/Rectangle-2-2.pnghttps://example.com/webdev.jpg",
+    "price": 49.99,
+    "time_credit": 4
+  },
+  {
+    "id": 2,
+    "title": "Python for Beginners",
+    "description": "Learn the basics of Python programming, including variables, data types, and control structures.",
+    "image": "https://i.ibb.co/28Q11DQ/Rectangle-2.png",
+    "price": 59.99,
+    "time_credit": 3.5
+  },
+  {
+    "id": 3,
+    "title": "Advanced JavaScript Programming",
+    "description": "Take your JavaScript skills to the next level with advanced topics like asynchronous programming and ES6.",
+    "image": "https://i.ibb.co/P9fJFt0/Rectangle-2-6.png",
+    "price": 69.99,
+    "time_credit": 4.5
+  },
+  {
+    "id": 4,
+    "title": "Data Science with R",
+    "description": "Explore data analysis and visualization using R programming and data science libraries.",
+    "image": "https://i.ibb.co/NT8NHh4/Rectangle-2-1.png",
+    "price": 79.99,
+    "time_credit": 5.5
+  },
+  {
+    "id": 5,
+    "title": "Full-Stack Web Development",
+    "description": "Become a full-stack developer by mastering frontend and backend technologies like HTML, CSS, JavaScript, and Node.js.",
+    "image": "https://i.ibb.co/DVHydb9/Rectangle-2-5.png",
+    "price": 99.99,
+    "time_credit": 6
+  },
+  {
+    "id": 6,
+    "title": "Java Programming Fundamentals",
+    "description": "Learn the basics of Java programming, including object-oriented concepts and application development.",
+    "image": "https://i.ibb.co/G2sxJQT/Rectangle-3.png",
+    "price": 49.99,
+    "time_credit": 3.5
+  },
+  {
+    "id": 7,
+    "title": "Machine Learning Essentials",
+    "description": "Get started with machine learning using Python, scikit-learn, and real-world projects.",
+    "image": "https://i.ibb.co/DfpS2tr/Rectangle-2-3.png",
+    "price": 89.99,
+    "time_credit": 5
+  },
+  {
+    "id": 8,
+    "title": "Frontend Web Design Mastery",
+    "description": "Master the art of designing beautiful and responsive websites using HTML, CSS, and modern design techniques.",
+    "image": "https://i.ibb.co/0fMGsRG/Rectangle-3-1.png",
+    "price": 69.99,
+    "time_credit": 4
+  },
+  {
+    "id": 9,
+    "title": "Ethical Hacking and Cybersecurity",
+    "description": "Learn ethical hacking techniques and cybersecurity best practices to protect systems and networks.",
+    "image": "https://i.ibb.co/CnTNGFQ/Rectangle-2-4.png",
+    "price": 79.99,
+    "time_credit": 4.5
+  }
+]
