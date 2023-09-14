@@ -1,7 +1,7 @@
 import "./App.css";
 import Cart from "./Componenets/Cart/Cart";
 import Header from "./Componenets/Header/Header";
-import Courses from "./Courses/Courses";
+import Courses from "./Componenets/Courses/Courses";
 
 function App() {
   return (
