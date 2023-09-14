@@ -6,4 +6,14 @@
 
 body {
   font-family: "Inter", sans-serif;
+  background-color: #f3f3f3;
+}
+.base-medium-text {
+  color: #1c1b1bcc;
+}
+.base-text {
+  color: #1c1b1b99;
+}
+.bold--text {
+  color: #1c1b1b;
 }

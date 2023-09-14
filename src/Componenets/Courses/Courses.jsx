@@ -11,7 +11,6 @@ const Courses = ({ handleAddToCart }) => {
   }, []);
   return (
     <section className="md:w-3/4">
-      <h3 className="text-5xl ">Courses: {courses.length}</h3>
       <div className="grid md:grid-cols-3 gap-5">
         {courses.map((course) => (
           <Course

@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import "./Course.css";
+import "../../index.css";
 
 const Course = ({ course, handleAddToCart }) => {
   const { title, description, image, price, time_credit } = course;
@@ -11,7 +11,7 @@ const Course = ({ course, handleAddToCart }) => {
         <p className="text-sm base-text">{description}</p>
         <div className="base-text text-base font-medium flex justify-between">
           <p>Price: ${price}</p>
-          <p className="">Crefit: {time_credit} hr</p>
+          <p className="">Credit: {time_credit} hr</p>
         </div>
         <button
           onClick={() => handleAddToCart(course)}
