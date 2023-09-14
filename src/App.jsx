@@ -6,17 +6,21 @@ import { useState } from "react";
 
 function App() {
   const [cart, setCart] = useState([]);
+  const [totalCreditHrs, setTotalCreditHrs] = useState(0);
 
   const handleAddToCart = (course) => {
-    console.log(course);
+    // console.log(course.time_credit);
+
+    const newTotalCreditHrs = totalCreditHrs + course.time_credit;
 
     const isThere = cart.find((item) => item.id === course.id);
-
     if (isThere) {
       return alert("You can not Select same Course twice");
+    } else if (newTotalCreditHrs > 20) {
+      return alert("Credit Limit Exceeded");
     } else {
       setCart([...cart, course]);
-      console.log("it worked");
+      setTotalCreditHrs(newTotalCreditHrs);
     }
   };
   return (
@@ -24,7 +28,7 @@ function App() {
       <Header></Header>
       <main className="md:flex max-w-7xl mx-auto">
         <Courses handleAddToCart={handleAddToCart}></Courses>
-        <Cart cart={cart}></Cart>
+        <Cart totalCreditHrs={totalCreditHrs} cart={cart}></Cart>
       </main>
     </>
   );
