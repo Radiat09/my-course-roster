@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Introduc. to C Programming",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "C programming is a versatile and influential programming language. It's known for its efficiency, low-level system access, and portability.",
     "image": "https://i.ibb.co/k03mY9x/Rectangle-2-2.pnghttps://example.com/webdev.jpg",
     "price": 49.99,
     "time_credit": 4
@@ -10,7 +10,7 @@
   {
     "id": 2,
     "title": "Introduction to OOP Python",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "Python is a high-level, versatile programming language known for its simplicity and readability. It's widely used.",
     "image": "https://i.ibb.co/28Q11DQ/Rectangle-2.png",
     "price": 59.99,
     "time_credit": 3.5
@@ -18,7 +18,7 @@
   {
     "id": 3,
     "title": "Problem-Solving Part",
-    "description": "Take your JavaScript skills to the next level with advanced topics like asynchronous programming and ES6 and more.",
+    "description": "Problem solving in programming involves breaking down complex tasks, designing step-by-step solutions, writing code, testing and fixing errors.",
     "image": "https://i.ibb.co/P9fJFt0/Rectangle-2-6.png",
     "price": 69.99,
     "time_credit": 4.5
@@ -26,7 +26,7 @@
   {
     "id": 4,
     "title": "Database (MySQL)",
-    "description": "Explore data analysis and visualization using R programming and data science libraries readable content of a page when looking at its layout.",
+    "description": "MySQL is a popular open-source relational database management system that allows you to store, organize, and manage data efficiently.",
     "image": "https://i.ibb.co/NT8NHh4/Rectangle-2-1.png",
     "price": 79.99,
     "time_credit": 5.5
@@ -34,7 +34,7 @@
   {
     "id": 5,
     "title": "Software Engineering",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "Software engineering is the systematic and disciplined approach to designing, developing, and maintaining software systems, ensuring they are reliable.",
     "image": "https://i.ibb.co/DVHydb9/Rectangle-2-5.png",
     "price": 99.99,
     "time_credit": 6
@@ -42,7 +42,7 @@
   {
     "id": 6,
     "title": "Basic Data Structures",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "Basic data structures are fundamental components in computer programming that allow you to organize and store data efficiently.",
     "image": "https://i.ibb.co/G2sxJQT/Rectangle-3.png",
     "price": 49.99,
     "time_credit": 3.5
@@ -50,7 +50,7 @@
   {
     "id": 7,
     "title": "Introduction to Algorithms",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "An algorithm is a step-by-step set of instructions or a well-defined process for solving a problem or performing a task in cse and other fields.",
     "image": "https://i.ibb.co/DfpS2tr/Rectangle-2-3.png",
     "price": 89.99,
     "time_credit": 5
@@ -58,7 +58,7 @@
   {
     "id": 8,
     "title": "AWS, Cloud Computing",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "cloud computing provides a wide range of on-demand cloud services, like computing power, storage, databases, networking, analytics etc.",
     "image": "https://i.ibb.co/0fMGsRG/Rectangle-3-1.png",
     "price": 69.99,
     "time_credit": 4
@@ -66,7 +66,7 @@
   {
     "id": 9,
     "title": "Introduction to C++ for DSA",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+    "description": "C++ is a widely used language for implementing dataStructures & algorithms.It provides many features like OOP,templates etc.",
     "image": "https://i.ibb.co/CnTNGFQ/Rectangle-2-4.png",
     "price": 79.99,
     "time_credit": 4.5

@@ -7,7 +7,7 @@ const Cart = ({ cart, totalCreditHrs, remainingCredits, totalPrice }) => {
     <section className="ml-10 space-y-8 w-1/4 bg-white rounded-lg p-6 h-fit">
       <div className="">
         <h4 className="text-lg font-bold text-blue-500">
-          Remaining Credits: {remainingCredits}
+          Remaining Credits: {remainingCredits}hrs
         </h4>
       </div>
       <hr />
@@ -26,7 +26,7 @@ const Cart = ({ cart, totalCreditHrs, remainingCredits, totalPrice }) => {
       <hr />
       <div>
         <h4 className="font-medium base-medium-text">
-          Total Price: {totalPrice}
+          Total Price: ${totalPrice}
         </h4>
       </div>
     </section>

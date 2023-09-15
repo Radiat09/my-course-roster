@@ -4,7 +4,7 @@ import "../../index.css";
 const Course = ({ course, handleAddToCart }) => {
   const { title, description, image, price, time_credit } = course;
   return (
-    <div className="shadow-md rounded-xl p-4">
+    <div className="shadow-md rounded-xl p-4 bg-white">
       <img className="w-full  rounded-xl" src={image} alt={title} />
       <div className="flex flex-col gap-3 my-3">
         <h4 className="text-lg font-semibold">{title}</h4>
