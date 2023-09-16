@@ -23,7 +23,7 @@ function App() {
     if (isThere) {
       return toast.error("You can not Select same Course twice");
     } else if (newTotalCreditHrs > 20) {
-      return alert("Credit Limit Exceeded");
+      return toast.error("You have Exceeded Credit Limits");
     } else {
       setCart([...cart, course]);
       setTotalCreditHrs(newTotalCreditHrs);
