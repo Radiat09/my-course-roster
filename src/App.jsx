@@ -3,6 +3,8 @@ import Cart from "./Componenets/Cart/Cart";
 import Header from "./Componenets/Header/Header";
 import Courses from "./Componenets/Courses/Courses";
 import { useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 function App() {
   const [cart, setCart] = useState([]);
@@ -19,7 +21,7 @@ function App() {
 
     const isThere = cart.find((item) => item.id === course.id);
     if (isThere) {
-      return alert("You can not Select same Course twice");
+      return toast.error("You can not Select same Course twice");
     } else if (newTotalCreditHrs > 20) {
       return alert("Credit Limit Exceeded");
     } else {
@@ -41,6 +43,7 @@ function App() {
           cart={cart}
         ></Cart>
       </main>
+      <ToastContainer theme="dark" position="top-right"></ToastContainer>
     </>
   );
 }
